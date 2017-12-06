@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/scoreboard">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/first"
+        android:layout_gravity="center_vertical"
+        android:text="asdf"
+        android:layout_marginRight="85dp"
+        android:layout_marginEnd="85dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/second"
+        android:layout_gravity="center_vertical"
+        android:text="asdf"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/first"
+        android:layout_alignLeft="@+id/first"
+        android:layout_alignStart="@+id/first" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/third"
+        android:layout_gravity="center_vertical"
+        android:text="asdf"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/second"
+        android:layout_alignLeft="@+id/second"
+        android:layout_alignStart="@+id/second" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/fourth"
+        android:layout_gravity="center_vertical"
+        android:text="asdf"
+        android:layout_below="@+id/third"
+        android:layout_alignLeft="@+id/third"
+        android:layout_alignStart="@+id/third"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/fifth"
+        android:layout_gravity="bottom"
+        android:text="asdf"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/fourth"
+        android:layout_alignLeft="@+id/fourth"
+        android:layout_alignStart="@+id/fourth" />
+</RelativeLayout>

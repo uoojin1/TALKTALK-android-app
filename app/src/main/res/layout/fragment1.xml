@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:background="#ffffff"
+    tools:context="com.moonspace.talktalk.MainActivity$PlaceholderFragment"
+    android:id="@+id/profilecontainer">
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/container">
+
+            <ImageView
+                android:id="@+id/SeasonImg"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/seasonimg"
+                android:scaleType="fitXY"
+                android:contentDescription="ontheair"
+                android:cropToPadding="false"
+                android:padding="0dp" />
+
+            <GridView
+                android:id="@+id/ProfileImg_gridview"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:stretchMode="columnWidth"
+                android:numColumns="3"
+                android:nestedScrollingEnabled="true"
+                android:layout_below="@+id/SeasonImg"
+                android:paddingStart="0dp"
+                android:paddingEnd="0dp"
+                android:padding="0dp"
+                android:scrollIndicators="right"
+                android:scrollingCache="true"
+                android:smoothScrollbar="true">
+
+            </GridView>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
